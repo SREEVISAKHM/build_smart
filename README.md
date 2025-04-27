@@ -15,3 +15,14 @@ The application follows the **MVVM (Model-View-ViewModel)** architecture for cle
 
 
 
+### Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SREEVISAKHM/build_smart.git
+
+
+
+
+### Build the app bundle (for Android)   
+  ```bash
+  flutter build appbundle --dart-define=env=dev --dart-define=dev_tools_enabled=true
