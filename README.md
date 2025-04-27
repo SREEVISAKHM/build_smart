@@ -1,4 +1,4 @@
-# build_smart
+# BUILD SMART
 
 Chatbot Mobile Application 
 
@@ -11,7 +11,10 @@ This project is a mobile chatbot application developed using **Flutter** for bot
 
 ## Architecture
 The application follows the **MVVM (Model-View-ViewModel)** architecture for clean code separation, making the codebase maintainable and scalable. **Riverpod** is used for state management to efficiently manage state across both iOS and Android platforms.
-
+   ### MVVM Pattern  
+   - **Model**: Data layer 
+   - **View**: UI components  
+   - **ViewModel**: Business logic 
 
 
 
@@ -20,6 +23,28 @@ The application follows the **MVVM (Model-View-ViewModel)** architecture for cle
    ```bash
    git clone https://github.com/SREEVISAKHM/build_smart.git
 
+2. Install Dependencies
+   ```bash
+   flutter pub get
+
+3. Run the App
+   in Dev Env
+
+   ```bash
+   flutter run --dart-define=env=dev --dart-define=dev_tools_enabled=true
+
+4. Other  Flavors
+
+   # production
+   ```bash 
+   flutter run --dart-define=env=prod
+   
+
+
+Run the Application for different flavors setuped inside vs code / android studio eg:
+
+   ```bash
+   flutter run --dart-define=env=dev --dart-define=dev_tools_enabled=true
 
 
 
